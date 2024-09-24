@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Inter-Bold', sans-serif;
     box-sizing: border-box;
     }
 
@@ -61,7 +60,56 @@
     }
 
     .account-name {
-        font-family: 'Inter SemiBold', sans-serif;
+        font-family: 'Inter SemiBold', sans-serif;    
         font-size: 1.500rem;
     }
     
+    .account-location {
+        font-family: 'Inter Bold', sans-serif;
+        font-size: 0.900rem;
+        line-height: 150%;
+        color: hsl(75, 100%, 67%);
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+
+    .account-bio {
+        font-family: 'Inter Regular', sans-serif;
+        font-size: 0.880rem;
+        line-height: 150%;      
+    }
+
+
+
+
+    .social-account-button {
+        display: grid;
+        text-align: center;
+        margin-top: 1.25rem;
+        
+       
+    }
+
+    .account-button {
+        list-style: none;
+        font-family: 'Inter SemiBold', sans-serif;
+        font-size: 0.880rem;
+        max-width: 100%;
+        border-radius: 0.4rem;
+    }
+
+
+    .account-button .account-list {
+        background-color: rgb(51, 51, 51);
+        padding: 0.80rem 0rem 0.80rem 0rem;
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+        cursor: pointer;
+        border-radius: 0.4rem;
+    }
+
+    .account-list:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: rgb(31, 31, 31);
+        transition: 0.13s;
+    }
